@@ -1,0 +1,12 @@
+.card.img-fluid {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.infoo {
+  background-color: black;
+}
+
+.bg {
+  background-image: url(../../assets/testimonials/images.jfif);
+}
