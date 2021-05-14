@@ -6,20 +6,21 @@ import Testimonials from "./testimonials/testimonials"
 import Partnership from "./partnership/partnership"
 import SliderData from './about/SliderData'
 import Contact from "./contact/contact";
-import Data from "./testimonials/data"
 import Nav from "./navbar/navbar"
+import img from "./testimonials/data"
 
 
 export default function App() {
-    return (<>
-            
-            <About id="section-1" slides={SliderData}/>
-            <Services id="section-2"/>
-            <Portfolio id="section-3"/>
-            <Partnership id="section-4" slides={SliderData}/>
-            <Testimonials id="section-5" dataa={Data}/>
-            <Contact id="section-6"/>
-            <Nav/>
+    return (
+            <>
+                <About  slides={SliderData}/>
+                <Services />
+                <Portfolio />
+                <Partnership slides={SliderData}/>
+                <Testimonials  imgg={img}/>
+                <Contact />
+                <Nav/>
             </>
+            
     )
 }

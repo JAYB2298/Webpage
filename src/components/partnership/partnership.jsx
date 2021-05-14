@@ -24,7 +24,7 @@ export default function App({slides}) {
   }
   
   return (
-    <div className="container bgd mb-5">
+    <div id="partnership" className="container bgd mb-5">
       <div className="row">
                 <div className="col-md-5">
                     <h4>MEET OUR</h4>

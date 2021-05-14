@@ -78,7 +78,7 @@ let Card=()=>{
     } */
 
     return <>
-    <div className='container mt-4'>
+    <div id="contact" className='container mt-4'>
         <div className="row mb-4">
             <div className="col-md-5">
                 <h4>CONNECTING IDEAS &</h4>

@@ -59,13 +59,13 @@ export default function services() {
     
     
     return (
-        <div className="container">
+        <div id="services" className="container">
             <div className="row">
                 <div className="col-md-5">
                     <h4>WHAT WE DO AND</h4>
                     <h4><strong>WHAT WE CAN OFFER</strong></h4>
                 </div>
-                <div className="col-md-7">
+                <div className="col-md-7 ">
                     <p>We are offering our a team with exclusive full package services to help buisness grow</p>
                 </div>
             </div>

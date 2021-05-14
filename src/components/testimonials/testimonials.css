@@ -29,13 +29,6 @@
 }
 
 .bgg {
-  /* background-image: url(../../assets/testimonials/images.jfif);
- */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bgg {
   position: relative;
   height: 110%;
 }

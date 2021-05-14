@@ -1,7 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import {Link} from 'react-scroll'
 
 export default function Navbar() {
     return (
@@ -14,24 +13,24 @@ export default function Navbar() {
                     </li>
                 </ul>    
                 <ul className="navbar-nav ml-auto text-white">
-                    <li className="nav-item active">
-                        <h6 className="ml-2">Home</h6>
-                    </li>
-                    <li className="nav-item active">
-                        <h6 className="ml-2">About Us</h6>
-                    </li>
-                    <li className="nav-item active">
-                        <h6 className="ml-2">Services</h6>
-                    </li>
-                    <li className="nav-item active">
-                        <h6 className="ml-2">Potfolio</h6>
-                    </li>
-                    <li className="nav-item active">
-                        <h6 className="ml-2">Partnership</h6>
-                    </li>
-                    <li className="nav-item active">
-                        <h6 className="ml-2">Contact</h6>
-                    </li>
+                    <Link to="about" className="ml-2 text-white" smooth={true} duration={1000}>
+                        Home
+                    </Link>
+                    <Link to="about" className="ml-2 text-white" smooth={true} duration={1000}>
+                        About Us
+                    </Link>
+                    <Link to="services" className="ml-2 text-white" smooth={true} duration={1000}>
+                        Services
+                    </Link>
+                    <Link to="portfolio" className="ml-2 text-white" smooth={true} duration={1000}>
+                        Potfolio
+                    </Link>
+                    <Link to="partnership" className="ml-2 text-white" smooth={true} duration={1000}>
+                        Partnership
+                    </Link>
+                    <Link to="contact" className="ml-2 text-white" smooth={true} duration={1000}>
+                        Contact
+                    </Link>
                 </ul>
             </div>
         </footer>  

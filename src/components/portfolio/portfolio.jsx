@@ -40,7 +40,7 @@ export default function portfolio() {
         }
 
     return (
-        <div className="container">
+        <div id="portfolio" className="container">
             <div className="row">
                 <div className="col-md-5">
                     <h4>WE ARE DIVERSE</h4>
